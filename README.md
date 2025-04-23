@@ -82,7 +82,7 @@ BUILDKIT=1 COMPOSE_BAKE=true docker compose up --build -d
 
 ```bash
 docker-compose exec backend-service alembic revision --autogenerate -m "your message"
-docker-compose exec api alembic upgrade head
+docker-compose exec backend-service alembic upgrade head
 ```
 
 ### for the sake of this project i didn't gitignored the .env file.
