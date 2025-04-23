@@ -59,7 +59,7 @@ social-backend-api/
 ### 1. 📁 Clone the repository
 
 ```bash
-git clone https://github.com/yourname/social-backend-api.git
+git clone https://github.com/midhun-craj/social-backend-api.git
 cd social-backend-api
 ```
 
